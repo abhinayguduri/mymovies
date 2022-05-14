@@ -23,7 +23,7 @@ const EpisodeList = (props) => {
       setEpisodes(res.episodes);
     };
     getepisodes();
-  }, []);
+  }, [props.id, props.season]);
   console.log(episodes);
   return (
     <div className="movie-list">
