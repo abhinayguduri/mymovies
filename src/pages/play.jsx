@@ -5,7 +5,7 @@ import "./Play.scss";
 const Play = () => {
   const { category, id, season, episode } = useParams();
   var link = "";
-  if (category == "tv") {
+  if (category === "tv") {
     link =
       "https://www.2embed.ru/embed/tmdb/tv?id=" +
       id +
@@ -13,7 +13,7 @@ const Play = () => {
       season +
       "&e=" +
       episode;
-  } else if (category == "movie") {
+  } else if (category === "movie") {
     link = "https://www.2embed.ru/embed/imdb/movie?id=" + id;
   }
   return (
