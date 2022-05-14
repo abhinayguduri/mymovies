@@ -1,0 +1,10 @@
+@use "../scss/" as *;
+.iframeContainer {
+  position: relative;
+  top: 100px;
+  height: calc(100vh - 200px);
+}
+.iframe {
+  height: 100%;
+  width: 100%;
+}
