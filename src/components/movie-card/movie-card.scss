@@ -27,7 +27,7 @@
     background-color: $black;
     opacity: 0;
     transition: opacity 0.3s ease;
-    border-radius: $border-radius;
+    border-radius: 10px;
   }
 
   @media (hover: hover) and (pointer: fine) {
