@@ -65,9 +65,7 @@ const About = () => {
           </h3>
           <br></br>
           <h3>
-            <a className="SendEmail" href="mailto:guduriabhinay@gmail.com">
-              Send Email
-            </a>
+            <a className="SendEmail">Send Email</a>
           </h3>
           <br></br>
           <h2>Disclaimer</h2>
@@ -78,7 +76,7 @@ const About = () => {
             circulating online!
           </h3>
           <div className="Love">
-            <h4>Made with ❤️ By Abhinay Guduri</h4>
+            <h4>Made with ❤️ By A.G</h4>
           </div>
           <br></br>
           <br></br>
