@@ -11,6 +11,24 @@
 ::-webkit-scrollbar {
   display: none; /* Safari and Chrome */
 }
+.About h2 {
+  color: red;
+}
+.About a {
+  height: 10px;
+  width: auto;
+  background-color: white;
+  padding: 15px;
+  color: black;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.About h3 {
+  margin-bottom: 15px;
+}
+.Love {
+  text-align: center;
+}
 html {
   font-size: 100%;
 
