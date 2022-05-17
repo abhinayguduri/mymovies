@@ -3,7 +3,7 @@
   "short_name": "A.G Movies",
   "theme_color": "#000000",
   "background_color": "#000000",
-  "display": "fullscreen",
+  "display": "standalone",
   "scope": "/",
   "start_url": "/",
   "icons": [
