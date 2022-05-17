@@ -1,11 +1,13 @@
 @use "../scss/" as *;
 .iframeContainer {
   position: relative;
-  top: 100px;
-  height: calc(100vh - 200px);
+  top: 5rem;
+  height: calc(100% - 5rem);
 }
 .iframe {
   height: 100%;
   width: 100%;
-  min-height: 400px;
+  @include mobile {
+    height: calc(100% - 11px);
+  }
 }
