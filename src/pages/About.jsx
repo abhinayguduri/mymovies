@@ -1,10 +1,14 @@
 import React from "react";
-
-import { useParams } from "react-router";
-
+import { useEffect } from "react";
 import PageHeader from "../components/page-header/PageHeader";
 
 const About = () => {
+  useEffect(() => {
+    const start = () => {
+      window.scrollTo(0, 0);
+    };
+    start();
+  }, []);
   return (
     <>
       <PageHeader>About</PageHeader>
