@@ -31,6 +31,9 @@ export const askForPermissionToReceiveNotifications = async () => {
       });
       if (!final_tokens.includes(token)) {
         addDoc(tokens, { token });
+        alert("Added");
+      } else {
+        alert("Already Added");
       }
     });
   } catch (error) {
