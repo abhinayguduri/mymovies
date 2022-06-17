@@ -54,6 +54,28 @@ body {
     margin-bottom: 3rem;
   }
 }
+.pushform {
+  text-align: center;
+  width: 80%;
+  position: relative;
+  left: 10%;
+}
+.pushInput {
+  height: 40px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+}
+.pushBtn {
+  height: 40px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  background-color: red;
+}
 
 a {
   text-decoration: none;

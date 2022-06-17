@@ -7,6 +7,7 @@ import Catalog from "../pages/Catalog";
 import About from "../pages/About";
 import Detail from "../pages/detail/Detail";
 import Play from "../pages/play";
+import Push from "../pages/push";
 const Routes = () => {
   return (
     <Switch>
@@ -15,6 +16,7 @@ const Routes = () => {
       <Route path="/:category/:id/:season/:episode/play" component={Play} />
       <Route path="/:category/:id" component={Detail} />
       <Route path="/about" component={About} />
+      <Route path="/push" component={Push} />
       <Route path="/:category" component={Catalog} />
       <Route path="/" exact component={Home} />
     </Switch>
