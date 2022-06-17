@@ -45,6 +45,7 @@ const Push = () => {
             }
           );
         });
+        alert("Push Sent");
       });
     }
   };
