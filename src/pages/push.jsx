@@ -34,6 +34,7 @@ const Push = () => {
                 body: message,
                 click_action: click,
                 icon: "https://www.agmovies.ga/static/media/tmovie.53cb986b.png",
+                sound: "default",
               },
               to: tok.data.token,
             },
