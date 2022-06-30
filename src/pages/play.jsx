@@ -7,14 +7,14 @@ const Play = () => {
   var link = "";
   if (category === "tv") {
     link =
-      "https://www.2embed.ru/embed/tmdb/tv?id=" +
+      "https://www.2embed.to/embed/tmdb/tv?id=" +
       id +
       "&s=" +
       season +
       "&e=" +
       episode;
   } else if (category === "movie") {
-    link = "https://www.2embed.ru/embed/imdb/movie?id=" + id;
+    link = "https://www.2embed.to/embed/imdb/movie?id=" + id;
   }
   return (
     <>
