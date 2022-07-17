@@ -42,14 +42,15 @@ const About = () => {
             hosting site.
           </h3>
           <br></br>
-          <h2>There's so many advertisements.</h2>
+          <h2>There are advertisements.</h2>
           <br></br>
           <h3>
-            We are very sorry that we cant help you with that. We have no
-            control in the ads being serve. (Might be a Malware, Porn Ads) Don't
-            download anything in the popups. If you don't want to be annoyed. I
-            highly recommended to subscribe in legal streaming site that you can
-            afford. (Yes, It's worth it!)
+            We are very sorry that we have to serve ads to maintain the server
+            costs. We Promise that these are limited and we serve no ads once
+            you start streaming your fav show. (Might be a Malware, Porn Ads)
+            Don't download anything in the popups. If you don't want to be
+            annoyed. I highly recommended to subscribe in legal streaming site
+            that you can afford. (Yes, It's worth it!)
           </h3>
           <br></br>
           <h2>Why Movies or TV-shows sometimes loads slow?</h2>
