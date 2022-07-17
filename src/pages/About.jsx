@@ -69,7 +69,7 @@ const About = () => {
           </h3>
           <br></br>
           <h3>
-            <a className="SendEmail" href="mailto:abhinayguduri@protonmail.com">
+            <a className="SendEmail" href="mailto:agmovies.ga@protonmail.com">
               Send Email
             </a>
           </h3>
