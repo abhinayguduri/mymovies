@@ -83,7 +83,7 @@ const About = () => {
           </h3>
           <br></br>
           <div className="Love">
-            <h4>Made with ❤️ By Abhinay Guduri</h4>
+            <h4>Made with ❤️ By a Ninja</h4>
           </div>
           <br></br>
           <br></br>
