@@ -49,7 +49,11 @@ const Header = () => {
       window.removeEventListener("scroll", shrinkHeader);
     };
   }, []);
-  var ishome = window.location.pathname === "/";
+  if(window.location.pathname === "/" || window.location.pathname === "/movie" || window.location.pathname === "/tv" || window.location.pathname === "/about"){
+    var ishome = true;
+  }else{
+    var ishome = false;
+  }
   return (
     
     <div ref={headerRef} className="header">
