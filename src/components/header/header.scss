@@ -3,7 +3,7 @@
 .logo {
   font-size: 2.5rem;
   font-weight: 600;
-
+  margin-left: 20px;
   @include flex(center, unset);
 
   img {
@@ -16,7 +16,11 @@
     }
   }
 }
-
+.fa{
+  position: fixed;
+  left: 15px;
+  font-size: 25px;
+}
 .header {
   height: $header-height;
   position: fixed;
