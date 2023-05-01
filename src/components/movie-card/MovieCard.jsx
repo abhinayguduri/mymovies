@@ -12,10 +12,18 @@ import apiConfig from "../../api/apiConfig";
 const MovieCard = (props) => {
   const item = props.item;
 
-  const link = "/" + category[props.category] + "/" + item.id;
-
-  const bg = apiConfig.w500Image(item.poster_path || item.backdrop_path);
-
+  let link = "/";
+  if(props.category=="livetv"){
+    link = "/" + "livetv"+ "/" + item.id+"/play";
+  }else{
+    link = "/" + category[props.category] + "/" + item.id;link = "/" + category[props.category] + "/" + item.id;
+  }
+  let bg = item.bg;
+  if(item.livetv){
+  bg = item.bg;
+  }else{
+  bg = apiConfig.w500Image(item.poster_path || item.backdrop_path);
+  }
   return (
     <Link to={link}>
       <div

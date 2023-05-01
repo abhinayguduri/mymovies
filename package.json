@@ -9,6 +9,7 @@
     "axios": "^0.22.0",
     "firebase": "^9.8.3",
     "fs": "^0.0.1-security",
+    "hls.js": "^1.4.1-0.canary.9110",
     "loadash": "^1.0.0",
     "query-string": "^7.0.1",
     "react": "^17.0.2",
@@ -18,10 +19,12 @@
     "react-scripts": "4.0.3",
     "sass": "^1.42.1",
     "swiper": "^6.8.4",
+    "video.js": "^8.3.0",
+    "videojs-contrib-hls": "^5.15.0",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

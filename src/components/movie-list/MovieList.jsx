@@ -14,14 +14,17 @@ import apiConfig from '../../api/apiConfig';
 import MovieCard from '../movie-card/MovieCard';
 
 const MovieList = props => {
-
+    const livetv = [{"title":"Zee 5 Telugu","bg":"https://www.adgully.com/img/800/201906/zee5.jpg","livetv":true,"id":"zee5telugu"},
+                    {"title":"Zee Cinemas Telugu","bg":"https://www.pngkey.com/png/detail/532-5320038_zee-cinema.png","livetv":true, "id":"zeecinemastelugu"}
+                    ]
     const [items, setItems] = useState([]);
-
     useEffect(() => {
         const getList = async () => {
             let response = null;
             const params = {};
-
+            if(props.type == "livetv"){
+                setItems(livetv);
+            }else{
             if (props.type !== 'similar') {
                 switch(props.category) {
                     case category.movie:
@@ -34,6 +37,8 @@ const MovieList = props => {
                 response = await tmdbApi.similar(props.category, props.id);
             }
             setItems(response.results);
+        }
+            
         }
         getList();
     }, []);
