@@ -5,7 +5,8 @@ import "./Play.scss";
 const Play = () => {
   const srcarray = {
     "zee5telugu":"https://news-live-cfgroup.zee5.com/out/v1/06589254a501444cae34f76c6afd5c60/Zee_telugu/index.m3u8",
-    "zeecinemastelugu":"https://news-live-cfgroup.zee5.com/out/v1/326675470d6041efb042fd43bca649d1/Zee_Cinemalu_HD/index-connected.m3u8"
+    "zeecinemastelugu":"https://news-live-cfgroup.zee5.com/out/v1/326675470d6041efb042fd43bca649d1/Zee_Cinemalu_HD/index-connected.m3u8",
+    "jioipl":"https://topstreamz.midesi.tv/Skysport/index.m3u8"
   }
   const videoRef = useRef(null);
   const { category, id, season, episode } = useParams();

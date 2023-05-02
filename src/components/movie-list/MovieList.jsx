@@ -15,7 +15,8 @@ import MovieCard from '../movie-card/MovieCard';
 
 const MovieList = props => {
     const livetv = [{"title":"Zee 5 Telugu","bg":"https://www.adgully.com/img/800/201906/zee5.jpg","livetv":true,"id":"zee5telugu"},
-                    {"title":"Zee Cinemas Telugu","bg":"https://www.pngkey.com/png/detail/532-5320038_zee-cinema.png","livetv":true, "id":"zeecinemastelugu"}
+                    {"title":"Zee Cinemas Telugu","bg":"https://www.pngkey.com/png/detail/532-5320038_zee-cinema.png","livetv":true, "id":"zeecinemastelugu"},
+                    {"title":"Jio IPL","bg":"https://static.vecteezy.com/system/resources/previews/020/336/272/non_2x/jio-logo-jio-icon-free-free-vector.jpg", "livetv":true, "id":"jioipl"}
                     ]
     const [items, setItems] = useState([]);
     useEffect(() => {
