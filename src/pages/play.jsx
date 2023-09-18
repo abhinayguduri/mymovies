@@ -44,15 +44,16 @@ const Play = () => {
 
   var link = "";
   if (category === "tv") {
+
     link =
-      "https://www.2embed.to/embed/tmdb/tv?id=" +
+      "https://vidsrc.me/embed/tv?tmdb=" +
       id +
-      "&s=" +
+      "&season=" +
       season +
-      "&e=" +
-      episode;
+      "&episode=" +
+      episode+"&color=ff0000";
   } else if (category === "movie") {
-    link = "https://www.2embed.to/embed/imdb/movie?id=" + id;
+    link = "https://vidsrc.me/embed/movie?imdb=" + id+"&color=ff0000";
   }
   if(category==="livetv"){
     return (
