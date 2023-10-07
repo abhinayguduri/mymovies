@@ -46,14 +46,14 @@ const Play = () => {
   if (category === "tv") {
 
     link =
-      "https://vidsrc.me/embed/tv?tmdb=" +
+      "https://vidsrc.to/embed/tv/" +
       id +
-      "&season=" +
+      "/" +
       season +
-      "&episode=" +
-      episode+"&color=ff0000";
+      "/" +
+      episode;
   } else if (category === "movie") {
-    link = "https://vidsrc.me/embed/movie?imdb=" + id+"&color=ff0000";
+    link = "https://vidsrc.to/embed/movie/" + id;
   }
   if(category==="livetv"){
     return (
